@@ -1,0 +1,55 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+.banner-section{
+    display: flex;
+    background-color: #f8f8f8;
+    height: 100vh;
+}
+#logo{
+    height: 100%;
+    display: inline-block;
+    width: 200px;
+    margin-right: 50px;
+}
+.first-part{
+    width: 50%;
+    margin-top: 10rem;
+    margin-left: 6rem;
+    padding: 20px;
+}
+.first-half{
+    padding: 20px;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 18px;
+    margin-bottom: 3rem;
+}
+span{
+    color: chocolate;
+}
+.button{
+    text-decoration: none;
+    margin-top: 10rem;
+    font-size: 20px;
+    padding: 10px;
+    font-weight: 700;
+    border-radius: 20px;
+    color: white;
+    background-color: chocolate;
+}
+.middle-section{
+    display: flex;
+}
+.middle-section img{
+
+    
+}
+
+.secend-part{
+   width: 50%;
+}
