@@ -2,6 +2,7 @@ body{
     font-family: 'Roboto', sans-serif;
     margin: 0;
 }
+/* .banner-section below */
 .banner-section{
     display: flex;
     background-color: #f8f8f8;
@@ -21,7 +22,7 @@ h1{
 }
 h2{
     font-size: 18px;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 span{
     color: chocolate;
@@ -36,6 +37,9 @@ span{
     color: white;
     background-color: chocolate;
 }
+
+/* middle section below */
+
 .middle-section{
     display: flex;
 }
@@ -50,55 +54,105 @@ span{
     margin-left: 50rem;
     padding: 20px;
 }
-/* secend section end */
+/* middle section end */
 
 
-.third-section{
-    display: flex;
-}
-#item-section{
-text-align: center;
-margin: auto;
-padding: 10px;
-width: 50%;
-}
-.course{
+/* resipies- section below*/
+.recipies-section{
     width: 80%;
     margin: auto;
+    padding: 80px 0px;
     text-align: center;
-    padding-top: 100px ;
+    display: flex;
+    
 }
 h1{
-    font-size: 30px;
-    font-weight: 500;
-   
+    font-size: 50px;
+    font-weight: 700;
+    
 }
-p{
-    font-size: 14px;
-    line-height: 15px;
-    padding: 10px;
-    color: rgb(94, 91, 91);
-    font-weight: 400;
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 12px 0px;
 }
-.row{
-    margin-top:5% ;
+/* .card-section below */
+.card-section {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: whitesmoke;
+    margin: 20px;
+    width: 33.33%;
+    float: left;
+    border-radius: 20px;
+  }
+  .card-section {
+    width: 30%;
+    transition: 0.3s;
+}
+.recipies-section .card-section img{
+    width: 80%;
+    border-radius: 20%;
+    padding: 30px;
+    
+  }
+  .recipies-section .card-section h4{
+      font-size: 25px;
+      font-weight: 700;
+  }
+  #img-size{
+      width: 75%;
+  }
+  
+  .card-section:hover {
+    box-shadow: 0 8px 15px 0 rgba(0,0,0,0.3);
+  }
+  
+  .container {
+    padding: 20px;
+    border-radius: 20px;
+    height: 200px;
+  }
+  /* .subscription-section below */
+  .subscription-section{
+    width: 100%;
+    margin: 40px 0px 100px;
+}
+.subscription-section .container{
+    width: 72%;
     display: flex;
-    justify-content: space-between;
+    margin: 20px auto 20px;
+    padding: 3%;
+    box-shadow: 5px 10px 30px black;
+    border-radius: 30px;
+
 }
- .col{
-     flex-basis: 30%;
-     background: #fff3f3;
-     border-radius: 10px;
-     margin-bottom: 5%;
-     padding: 35px 15px;
-     box-sizing: border-box;
-     transition: 0.5s;
- }
- h3{
-     text-align: center;
-     font-weight: 600;
-     margin: 12px 0px;
- }
- .col:hover{
-     box-shadow: 0px 0px 20px 0px rgb(0, 0, 0, 2);
- }
+.subscription-section .container .inner-container{
+    width: 33.33%;
+    padding: 20px;
+    text-align: center;
+}
+.subscription-section.container .inner-container h1{
+    font-size: 25px;
+    font-weight:700;
+    margin:15px;
+}
+.subscription-section .container .inner-container h2{
+    font-size: 20px;
+    font-weight: 500;
+}
+/* .footer-section below  */
+.footer-section{
+    text-align: center;
+    margin-top:50px ;
+    padding: 40px;
+    background-color: black
+}
+.footer-section p{
+    font-weight: 600;
+    color: white;
+}
+.footer-section h2{
+    font-size: 25px;
+    color: white;
+    font-family: sans-serif;
+}
