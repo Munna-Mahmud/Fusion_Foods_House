@@ -26,7 +26,7 @@ header img{
     padding: 46px;
     margin-left: 8rem;
 }
-.first-half{
+.first-part-two{
     padding: 20px;
 }
 h1{
@@ -37,7 +37,7 @@ h2{
     margin-bottom: 2rem;
 }
 span{
-    color: chocolate;
+    color: rgb(235, 31, 31);
 }
 .button{
     text-decoration: none;
@@ -75,7 +75,6 @@ span{
     padding: 80px 0px;
     text-align: center;
     display: flex;
-    
 }
 h1{
     font-size: 50px;
@@ -143,19 +142,63 @@ h3{
     text-align: center;
 }
 
+/* .contact-section below */
+
+.contact-section{
+    width: 100%;
+    background-image: url(images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin: auto;
+}
+.contact-section h5{
+    font-size: 30px;
+    font-weight: 700;
+    padding: 30px;
+    margin-left: 40rem;
+    margin-top: 15rem;
+    width: 50%;
+    color: black;
+
+}
+.contact-form{
+ margin:auto;
+ width: 50%;
+}
+input{
+        width: 100%;
+        padding: 15px;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 12px;
+        resize: vertical; 
+}
+.submit-button{
+    color: white;
+    background-color: #a13e01;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 15px;
+    font-weight: 700;
+    border-radius: 30px;
+    background-image: linear-gradient(#fc8f49, #fd4b2f);
+    border: 2px solid tomato;
+
+}
 /* .footer-section below  */
 .footer-section{
     text-align: center;
-    margin-top:50px ;
     padding: 40px;
-    background-color: black
+    background-color: #eec0c6;
+    background-image: linear-gradient(315deg, #eec0c6 0%, #e58c8a 74%);
 }
 .footer-section p{
     font-weight: 600;
-    color: white;
+    color:black;
 }
 .footer-section h2{
     font-size: 25px;
-    color: white;
+    color:black;
     font-family: sans-serif;
 }
