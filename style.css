@@ -2,17 +2,27 @@ body{
     font-family: 'Roboto', sans-serif;
     margin: 0;
 }
+#logo{
+    background-color: #fc8f49;
+     width: 100%;
+    }
+header img{
+  margin-left: 5rem;
+  width: 10rem;
+  padding: 5px;
+}
+
 /* .banner-section below */
 .banner-section{
     display: flex;
     background-color: #f8f8f8;
     height: 100vh;
 }
-.first-part{
+.first-part {
     width: 50%;
-    margin-top: 10rem;
-    margin-left: 6rem;
-    padding: 20px;
+    margin-top: 6rem;
+    padding: 46px;
+    margin-left: 8rem;
 }
 .first-half{
     padding: 20px;
@@ -29,13 +39,12 @@ span{
 }
 .button{
     text-decoration: none;
-    margin-top: 10rem;
     font-size: 20px;
-    padding: 10px;
+    padding: 15px;
     font-weight: 700;
-    border-radius: 20px;
+    border-radius: 30px;
     color: white;
-    background-color: chocolate;
+    background-image: linear-gradient(#fc8f49, #fd4b2f);
 }
 
 /* middle section below */
